@@ -1,0 +1,76 @@
+{
+    "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.categories.schema.json",
+    "Simulation - Licenses": {},
+    "Simulation - Trohpies": {},
+    "Simulation - Milestones": {},
+
+    "Manufacturer": { "yaml_option": ["!unlock_cars_individually"], "hidden": true },
+    "Individual":   { "yaml_option": ["unlock_cars_individually"], "hidden": true },
+
+    "Simulation - Cars": {},
+    "Simulation - Cars with FF": {},
+    "Simulation - Cars with FR": {},
+    "Simulation - Cars with 4WD": {},
+    "Simulation - Cars with Lightweight": {},
+    "Simulation - Cars from UK": {},
+    "Simulation - Cars from US": {},
+    "Simulation - Cars from JP": {},
+
+    "Starter Manufacturer": { "hidden": true },
+    "Starter Car": { "hidden": true },
+
+    "Upgrades - Muffler": {},
+    "Upgrades - Brake": {},
+    "Upgrades - Engine": {},
+    "Upgrades - Transmission": {},
+    "Upgrades - Turbo": {},
+    "Upgrades - Suspension": {},
+    "Upgrades - Tires": {},
+    "Upgrades - Other": {},
+
+    "Progressive Tires On": { "yaml_option": ["progressive_tires"], "hidden": true },
+    "Progressive Tires Off": { "yaml_option": ["!progressive_tires"], "hidden": true },
+
+    "Arcade - Cars": { "yaml_option": ["arcade"], "hidden": true},
+    "Arcade - C-Class Cars": { "yaml_option": ["arcade"] },
+    "Arcade - B-Class Cars": { "yaml_option": ["arcade"] },
+    "Arcade - A-Class Cars": { "yaml_option": ["arcade"] },
+    "Arcade - Tracks":       { "yaml_option": ["arcade"] },
+
+    "License Tests - B-Class":  { "yaml_option": ["license_tests"] },
+    "License Tests - A-Class":  { "yaml_option": ["license_tests"] },
+    "License Tests - iA-Class": { "yaml_option": ["license_tests"] },
+
+    "Qualifier": { "yaml_option": ["qualifier"]},
+
+    "Spot Race": {},
+
+    "GT League - Sunday Cup": {},
+    "GT League - Clubman Cup": {},
+    "GT League - GT Cup": {},
+    "GT League - GT World Cup": {},
+
+    "Special Event - FF Cars": {},
+    "Special Event - FR Cars": {},
+    "Special Event - 4WD Cars": {},
+    "Special Event - Lightweight": {},
+    "Special Event - US vs JP": {},
+    "Special Event - UK vs JP": {},
+    "Special Event - UK vs US": {},
+    "Special Event - Megaspeed": {},
+    "Special Event - Normal Car": {},
+    "Special Event - Tuned Car": {},
+    "Special Event - Endurance": { "yaml_option": ["endurance_events"] },
+
+    "Time Trial": {},
+    "Time Trial Reverse": {},
+
+    "Arcade Mode - High Speed Ring":   { "yaml_option": ["arcade"] },
+    "Arcade Mode - Trial Mountain":    { "yaml_option": ["arcade"] },
+    "Arcade Mode - Grand Valley East": { "yaml_option": ["arcade"] },
+    "Arcade Mode - Clubman Stage R5":  { "yaml_option": ["arcade"] },
+    "Arcade Mode - Autumn Ring":       { "yaml_option": ["arcade"] },
+    "Arcade Mode - Deep Forest":       { "yaml_option": ["arcade"] },
+    "Arcade Mode - Special Stage R5":  { "yaml_option": ["arcade"] },
+    "Arcade Mode - Grand Valley":      { "yaml_option": ["arcade"] }
+}

@@ -1,0 +1,34 @@
+{
+    "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.regions.schema.json",
+    "No Licenses": {
+        "connects_to": ["B-Class Unlocks", "Arcade - C-Class", "Arcade - B-Class", "Arcade - A-Class"],
+        "starting": true
+    },
+    "B-Class Unlocks": {
+        "requires": "|Progressive License:1|",
+        "connects_to": ["A-Class Unlocks", "FF Cars Cup", "FR Cars Cup", "4WD Cars Cup", "Lightweight Cup"]
+    },
+    "A-Class Unlocks": {
+        "requires": "|Progressive License:2|",
+        "connects_to": ["iA-Class Unlocks", "US vs JP Cup", "UK vs JP Cup", "UK vs US Cup"]
+    },
+    "iA-Class Unlocks": {
+        "requires": "|Progressive License:3|",
+        "connects_to": ["GT World Cup"]
+    },
+
+    "FF Cars Cup":     { "requires": "|Progressive License:1| and |@Simulation - Cars with FF:1|" },
+    "FR Cars Cup":     { "requires": "|Progressive License:1| and |@Simulation - Cars with FR:1|" },
+    "4WD Cars Cup":    { "requires": "|Progressive License:1| and |@Simulation - Cars with 4WD:1|" },
+    "Lightweight Cup": { "requires": "|Progressive License:1| and |@Simulation - Cars with Lightweight:1|" },
+
+    "US vs JP Cup": { "requires": "|Progressive License:2| and (|@Simulation - Cars from US:1| or |@Simulation - Cars from JP:1|)" },
+    "UK vs JP Cup": { "requires": "|Progressive License:2| and (|@Simulation - Cars from UK:1| or |@Simulation - Cars from JP:1|)" },
+    "UK vs US Cup": { "requires": "|Progressive License:2| and (|@Simulation - Cars from UK:1| or |@Simulation - Cars from US:1|)" },
+
+    "GT World Cup": { "requires": "|Progressive License:3| and |@Simulation - Milestones:3|" },
+
+    "Arcade - C-Class": { "requires": "|@Arcade - C-Class Cars:1|"},
+    "Arcade - B-Class": { "requires": "|@Arcade - B-Class Cars:1|"},
+    "Arcade - A-Class": { "requires": "|@Arcade - A-Class Cars:1|"}
+}
