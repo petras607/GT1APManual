@@ -1,0 +1,1179 @@
+{
+    "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.items.schema.json",
+    "data": [
+        {
+            "name": "Progressive License",
+            "category": ["Simulation - Licenses"],
+            "count": 3,
+            "progression": true
+        },
+        {
+            "name": "Trophy",
+            "category": ["Simulation - Trophies"],
+            "count": 0,
+            "progression": true
+        },
+
+        {
+            "name": "Win Sunday Cup",
+            "category": ["Simulation - Milestones"],
+            "progression": true
+        },
+        {
+            "name": "Win Clubman Cup",
+            "category": ["Simulation - Milestones"],
+            "progression": true
+        },
+        {
+            "name": "Win GT Cup",
+            "category": ["Simulation - Milestones"],
+            "progression": true
+        },
+        {
+            "name": "Win GT World Cup",
+            "category": ["Simulation - Milestones"],
+            "progression": true
+        },
+
+        {
+            "name": "Aston Martin Permit",
+            "category": ["Manufacturer", "Simulation - Cars", "Simulation - Cars from UK", "Simulation - Cars with FR"],
+            "progression": true
+        },
+        {
+            "name": "TVR Permit",
+            "category": ["Manufacturer", "Simulation - Cars", "Simulation - Cars from UK", "Simulation - Cars with FR"],
+            "progression": true
+        },
+        {
+            "name": "Chevrolet Permit",
+            "category": ["Manufacturer", "Simulation - Cars", "Simulation - Cars from US", "Simulation - Cars with FR"],
+            "progression": true
+        },
+        {
+            "name": "Dodge Permit",
+            "category": ["Manufacturer", "Simulation - Cars", "Simulation - Cars from US", "Simulation - Cars with FR"],
+            "progression": true
+        },
+        {
+            "name": "Honda & Acura Permit",
+            "category": ["Manufacturer", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FF", "Simulation - Cars with Lightweight", "Starter Manufacturer"],
+            "progression": true
+        },
+        {
+            "name": "Mazda Permit",
+            "category": ["Manufacturer", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FF", "Simulation - Cars with FR", "Simulation - Cars with Lightweight", "Starter Manufacturer"],
+            "progression": true
+        },
+        {
+            "name": "Mitsubishi Permit",
+            "category": ["Manufacturer", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FF", "Simulation - Cars with 4WD", "Simulation - Cars with Lightweight", "Starter Manufacturer"],
+            "progression": true
+        },
+        {
+            "name": "Nissan Permit",
+            "category": ["Manufacturer", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FF", "Simulation - Cars with FR", "Simulation - Cars with 4WD", "Starter Manufacturer"],
+            "progression": true
+        },
+        {
+            "name": "Subaru Permit",
+            "category": ["Manufacturer", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with 4WD"],
+            "progression": true
+        },
+        {
+            "name": "Toyota Permit",
+            "category": ["Manufacturer", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FF", "Simulation - Cars with FR", "Simulation - Cars with 4WD", "Simulation - Cars with Lightweight", "Starter Manufacturer"],
+            "progression": true
+        },
+
+        {
+            "name": "Progressive Mufflers",
+            "category": ["Upgrades - Muffler"],
+            "count": 3,
+            "useful": true
+        },
+        {
+            "name": "Sports Brake Kit",
+            "category": ["Upgrades - Brake"],
+            "useful": true
+        },
+        {
+            "name": "Brake Balance Controller",
+            "category": ["Upgrades - Brake"],
+            "useful": true
+        },
+        {
+            "name": "Sports ROM",
+            "category": ["Upgrades - Engine"],
+            "useful": true
+        },
+        {
+            "name": "Progressive NA Tune",
+            "category": ["Upgrades - Engine"],
+            "count": 3,
+            "useful": true
+        },
+        {
+            "name": "Port Polishing",
+            "category": ["Upgrades - Engine"],
+            "useful": true
+        },
+        {
+            "name": "Increasing Displacement",
+            "category": ["Upgrades - Engine"],
+            "useful": true
+        },
+        {
+            "name": "Engine Balancing",
+            "category": ["Upgrades - Engine"],
+            "useful": true
+        },
+        {
+            "name": "Progressive Gearbox",
+            "category": ["Upgrades - Transmission"],
+            "count": 3,
+            "useful": true
+        },
+        {
+            "name": "Progressive Clutch",
+            "category": ["Upgrades - Transmission"],
+            "count": 3,
+            "useful": true
+        },
+        {
+            "name": "Progressive Flywheel",
+            "category": ["Upgrades - Transmission"],
+            "count": 3,
+            "useful": true
+        },
+        {
+            "name": "Carbon Drive Shaft",
+            "category": ["Upgrades - Transmission"],
+            "useful": true
+        },
+        {
+            "name": "Progressive Intercooler",
+            "category": ["Upgrades - Turbo"],
+            "count": 2,
+            "useful": true
+        },
+        {
+            "name": "Progressive Turbo",
+            "category": ["Upgrades - Turbo"],
+            "count": 4,
+            "useful": true
+        },
+        {
+            "name": "Progressive Suspension",
+            "category": ["Upgrades - Suspension"],
+            "count": 3,
+            "useful": true
+        },
+        {
+            "name": "Front Soft Stabilizers",
+            "category": ["Upgrades - Suspension"],
+            "useful": true
+        },
+        {
+            "name": "Front Medium Stabilizers",
+            "category": ["Upgrades - Suspension"],
+            "useful": true
+        },
+        {
+            "name": "Front Hard Stabilizers",
+            "category": ["Upgrades - Suspension"],
+            "useful": true
+        },
+        {
+            "name": "Rear Soft Stabilizers",
+            "category": ["Upgrades - Suspension"],
+            "useful": true
+        },
+        {
+            "name": "Rear Medium Stabilizers",
+            "category": ["Upgrades - Suspension"],
+            "useful": true
+        },
+        {
+            "name": "Rear Hard Stabilizers",
+            "category": ["Upgrades - Suspension"],
+            "useful": true
+        },
+        {
+            "name": "Progressive Tires",
+            "category": ["Upgrades - Tires", "Progressive Tires On"],
+            "count": 6,
+            "useful": true
+        },
+        {
+            "name": "Semi Racing Tires - Hard-Hard",
+            "category": ["Upgrades - Tires", "Progressive Tires Off"],
+            "useful": true
+        },
+        {
+            "name": "Semi Racing Tires - Hard-Soft and Soft-Hard",
+            "category": ["Upgrades - Tires", "Progressive Tires Off"],
+            "useful": true
+        },
+        {
+            "name": "Semi Racing Tires - Soft-Soft",
+            "category": ["Upgrades - Tires", "Progressive Tires Off"],
+            "useful": true
+        },
+        {
+            "name": "Racing Tires - Hard-Hard",
+            "category": ["Upgrades - Tires", "Progressive Tires Off"],
+            "useful": true
+        },
+        {
+            "name": "Racing Tires - Hard-Soft and Soft-Hard",
+            "category": ["Upgrades - Tires", "Progressive Tires Off"],
+            "useful": true
+        },
+        {
+            "name": "Racing Tires - Soft-Soft",
+            "category": ["Upgrades - Tires", "Progressive Tires Off"],
+            "useful": true
+        },
+        {
+            "name": "Progressive Weight Reduction",
+            "category": ["Upgrades - Other"],
+            "count": 3,
+            "useful": true
+        },
+        {
+            "name": "Racing Modification",
+            "category": ["Upgrades - Other"],
+            "useful": true
+        },
+
+        {
+            "name": "Nissan Arcade C-Class Permit",
+            "category": ["Arcade - Cars", "Arcade - C-Class Cars"],
+            "progression": true
+        },
+        {
+            "name": "Nissan Arcade B-Class Permit",
+            "category": ["Arcade - Cars", "Arcade - B-Class Cars"],
+            "progression": true
+        },
+        {
+            "name": "Nissan Arcade A-Class Permit",
+            "category": ["Arcade - Cars", "Arcade - A-Class Cars"],
+            "progression": true
+        },
+        {
+            "name": "Honda & Acura Arcade C-Class Permit",
+            "category": ["Arcade - Cars", "Arcade - C-Class Cars"],
+            "progression": true
+        },
+        {
+            "name": "Honda & Acura Arcade B-Class Permit",
+            "category": ["Arcade - Cars", "Arcade - B-Class Cars"],
+            "progression": true
+        },
+        {
+            "name": "Honda & Acura Arcade A-Class Permit",
+            "category": ["Arcade - Cars", "Arcade - A-Class Cars"],
+            "progression": true
+        },
+        {
+            "name": "Mazda Arcade C-Class Permit",
+            "category": ["Arcade - Cars", "Arcade - C-Class Cars"],
+            "progression": true
+        },
+        {
+            "name": "Mazda Arcade B-Class Permit",
+            "category": ["Arcade - Cars", "Arcade - B-Class Cars"],
+            "progression": true
+        },
+        {
+            "name": "Mazda Arcade A-Class Permit",
+            "category": ["Arcade - Cars", "Arcade - A-Class Cars"],
+            "progression": true
+        },
+        {
+            "name": "Mitsubishi Arcade C-Class Permit",
+            "category": ["Arcade - Cars", "Arcade - C-Class Cars"],
+            "progression": true
+        },
+        {
+            "name": "Mitsubishi Arcade B-Class Permit",
+            "category": ["Arcade - Cars", "Arcade - B-Class Cars"],
+            "progression": true
+        },
+        {
+            "name": "Mitsubishi Arcade A-Class Permit",
+            "category": ["Arcade - Cars", "Arcade - A-Class Cars"],
+            "progression": true
+        },
+        {
+            "name": "Aston Martin Arcade A-Class Permit",
+            "category": ["Arcade - Cars", "Arcade - A-Class Cars"],
+            "progression": true
+        },
+        {
+            "name": "Chevrolet Arcade A-Class Permit",
+            "category": ["Arcade - Cars", "Arcade - A-Class Cars"],
+            "progression": true
+        },
+        {
+            "name": "Toyota Arcade B-Class Permit",
+            "category": ["Arcade - Cars", "Arcade - B-Class Cars"],
+            "progression": true
+        },
+        {
+            "name": "Toyota Arcade A-Class Permit",
+            "category": ["Arcade - Cars", "Arcade - A-Class Cars"],
+            "progression": true
+        },
+        {
+            "name": "Subaru Arcade A-Class Permit",
+            "category": ["Arcade - Cars", "Arcade - A-Class Cars"],
+            "progression": true
+        },
+        {
+            "name": "Dodge Arcade A-Class Permit",
+            "category": ["Arcade - Cars", "Arcade - A-Class Cars"],
+            "progression": true
+        },
+        {
+            "name": "TVR Arcade A-Class Permit",
+            "category": ["Arcade - Cars", "Arcade - A-Class Cars"],
+            "progression": true
+        },
+
+        {
+            "name": "High Speed Ring - Arcade Pass",
+            "category": ["Arcade - Tracks"],
+            "progression": true
+        },
+        {
+            "name": "Trial Mountain - Arcade Pass",
+            "category": ["Arcade - Tracks"],
+            "progression": true
+        },
+        {
+            "name": "Grand Valley East - Arcade Pass",
+            "category": ["Arcade - Tracks"],
+            "progression": true
+        },
+        {
+            "name": "Clubman Stage R5 - Arcade Pass",
+            "category": ["Arcade - Tracks"],
+            "progression": true
+        },
+        {
+            "name": "Autumn Ring - Arcade Pass",
+            "category": ["Arcade - Tracks"],
+            "progression": true
+        },
+        {
+            "name": "Deep Forest - Arcade Pass",
+            "category": ["Arcade - Tracks"],
+            "progression": true
+        },
+        {
+            "name": "Special Stage R5 - Arcade Pass",
+            "category": ["Arcade - Tracks"],
+            "progression": true
+        },
+        {
+            "name": "Grand Valley - Arcade Pass",
+            "category": ["Arcade - Tracks"],
+            "progression": true
+        },
+
+        {
+            "name": "Aston Martin DB7 Coupe",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from UK", "Simulation - Cars with FR"],
+            "progression": true
+        },
+        {
+            "name": "Aston Martin DB7 Volante",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from UK", "Simulation - Cars with FR"],
+            "progression": true
+        },
+        {
+            "name": "TVR Cerbera",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from UK", "Simulation - Cars with FR"],
+            "progression": true
+        },
+        {
+            "name": "TVR Griffith 500",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from UK", "Simulation - Cars with FR"],
+            "progression": true
+        },
+        {
+            "name": "TVR Griffith 4.0",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from UK", "Simulation - Cars with FR"],
+            "progression": true
+        },
+        {
+            "name": "TVR Cerbera LM Edition",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from UK", "Simulation - Cars with FR"],
+            "progression": true
+        },
+        {
+            "name": "Chevrolet Camaro Z28",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from US", "Simulation - Cars with FR"],
+            "progression": true
+        },
+        {
+            "name": "Chevrolet Corvette '96 Coupe",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from US", "Simulation - Cars with FR"],
+            "progression": true
+        },
+        {
+            "name": "Chevrolet Corvette '96 Grand Sport",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from US", "Simulation - Cars with FR"],
+            "progression": true
+        },
+        {
+            "name": "Chevrolet Camaro Z28 30th Anniversary",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from US", "Simulation - Cars with FR"],
+            "progression": true
+        },
+        {
+            "name": "Dodge Viper RT/10",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from US", "Simulation - Cars with FR"],
+            "progression": true
+        },
+        {
+            "name": "Dodge Viper GTS",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from US", "Simulation - Cars with FR"],
+            "progression": true
+        },
+        {
+            "name": "Dodge Concept Car",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from US", "Simulation - Cars with FR"],
+            "progression": true
+        },
+        {
+            "name": "Dodge Concept Car LM Edition",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from US", "Simulation - Cars with FR"],
+            "progression": true
+        },
+        {
+            "name": "Dodge Viper GTS-R",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from US", "Simulation - Cars with FR"],
+            "progression": true
+        },
+        {
+            "name": "Honda Civic 3door",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FF", "Simulation - Cars with Lightweight"],
+            "progression": true
+        },
+        {
+            "name": "Honda Civic Sedan",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FF", "Simulation - Cars with Lightweight"],
+            "progression": true
+        },
+        {
+            "name": "Honda Accord Wagon",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FF"],
+            "progression": true
+        },
+        {
+            "name": "Honda Prelude",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FF"],
+            "progression": true
+        },
+        {
+            "name": "Honda Civic Racer",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FF", "Simulation - Cars with Lightweight"],
+            "progression": true
+        },
+        {
+            "name": "Honda Accord Sedan",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FF"],
+            "progression": true
+        },
+        {
+            "name": "Honda Prelude Type SH",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FF"],
+            "progression": true
+        },
+        {
+            "name": "Acura Integra GS-R",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FF", "Simulation - Cars with Lightweight"],
+            "progression": true
+        },
+        {
+            "name": "Acura Integra Type R",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FF", "Simulation - Cars with Lightweight"],
+            "progression": true
+        },
+        {
+            "name": "Acura NSX",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP"],
+            "progression": true
+        },
+        {
+            "name": "Acura NSX Type S Zero",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP"],
+            "progression": true
+        },
+        {
+            "name": "Acura NSX Type S",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP"],
+            "progression": true
+        },
+        {
+            "name": "Acura NSX-R LM GT2",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP"],
+            "progression": true
+        },
+        {
+            "name": "Honda del Sol '93 S",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FF", "Simulation - Cars with Lightweight", "Starter Car"],
+            "progression": true
+        },
+        {
+            "name": "Honda del Sol '93 Si",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FF", "Simulation - Cars with Lightweight", "Starter Car"],
+            "progression": true
+        },
+        {
+            "name": "Honda Prelude '93 Si",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FF", "Starter Car"],
+            "progression": true
+        },
+        {
+            "name": "Honda Civic '93 3door Si",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FF", "Simulation - Cars with Lightweight", "Starter Car"],
+            "progression": true
+        },
+        {
+            "name": "Honda Prelude '94 VTEC",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FF", "Starter Car"],
+            "progression": true
+        },
+        {
+            "name": "Acura NSX '91",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP"],
+            "progression": true
+        },
+        {
+            "name": "Acura NSX '93",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP"],
+            "progression": true
+        },
+        {
+            "name": "Honda Civic '93 Sedan",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FF", "Simulation - Cars with Lightweight"],
+            "progression": true
+        },
+        {
+            "name": "Honda Civic CR-X '91 Si",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FF", "Simulation - Cars with Lightweight", "Starter Car"],
+            "progression": true
+        },
+        {
+            "name": "Honda del-sol LM Edition",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP"],
+            "progression": true
+        },
+        {
+            "name": "Mazda Demio LX G Package",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FF", "Simulation - Cars with Lightweight"],
+            "progression": true
+        },
+        {
+            "name": "Mazda Demio GL",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FF", "Simulation - Cars with Lightweight"],
+            "progression": true
+        },
+        {
+            "name": "Mazda Demio GL-X",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FF", "Simulation - Cars with Lightweight"],
+            "progression": true
+        },
+        {
+            "name": "Mazda Lantis Coupe 2000 Type-R 4door",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FF"],
+            "progression": true
+        },
+        {
+            "name": "Mazda Demio A spec",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FF", "Simulation - Cars with Lightweight"],
+            "progression": true
+        },
+        {
+            "name": "Mazda Eunos Roadster Normal",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FR", "Simulation - Cars with Lightweight"],
+            "progression": true
+        },
+        {
+            "name": "Mazda Eunos Roadster S-Special",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FR", "Simulation - Cars with Lightweight"],
+            "progression": true
+        },
+        {
+            "name": "Mazda Eunos Roadster V-Special",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FR", "Simulation - Cars with Lightweight"],
+            "progression": true
+        },
+        {
+            "name": "Mazda Eunos Roadster '89 1600 Normal",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FR", "Simulation - Cars with Lightweight", "Starter Car"],
+            "progression": true
+        },
+        {
+            "name": "Mazda Eunos Roadster '90 1600 V-Special",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FR", "Simulation - Cars with Lightweight", "Starter Car"],
+            "progression": true
+        },
+        {
+            "name": "Mazda Eunos Roadster '92 1600 S-Special",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FR", "Simulation - Cars with Lightweight"],
+            "progression": true
+        },
+        {
+            "name": "Mazda FD Efini RX-7 Type RB Bathurst",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FR"],
+            "progression": true
+        },
+        {
+            "name": "Mazda FD Efini RX-7 Touring X",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FR"],
+            "progression": true
+        },
+        {
+            "name": "Mazda FD Efini RX-7 Type RZ",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FR"],
+            "progression": true
+        },
+        {
+            "name": "Mazda FD Efini RX-7 A-spec",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FR"],
+            "progression": true
+        },
+        {
+            "name": "Mazda RX-7 LM Edition",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FR"],
+            "progression": true
+        },
+        {
+            "name": "Mazda FC Savanna RX-7 GT-X",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FR", "Starter Car"],
+            "progression": true
+        },
+        {
+            "name": "Mazda FC Savanna RX-7 Infini III",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FR"],
+            "progression": true
+        },
+        {
+            "name": "Mazda Eunos Cosmo 13B Type-S CCS",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FR"],
+            "progression": true
+        },
+        {
+            "name": "Mazda FD Efini RX-7 '91 Type-R",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FR"],
+            "progression": true
+        },
+        {
+            "name": "Mazda Eunos Cosmo 20B Type-E CCS",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FR"],
+            "progression": true
+        },
+        {
+            "name": "Mazda RX-7 A spec LM Edition",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FR"],
+            "progression": true
+        },
+        {
+            "name": "Mitsubishi Mirage Asti RX",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FF", "Simulation - Cars with Lightweight"],
+            "progression": true
+        },
+        {
+            "name": "Mitsubishi FTO GR",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FF", "Simulation - Cars with Lightweight"],
+            "progression": true
+        },
+        {
+            "name": "Mitsubishi FTO GP Version R",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FF", "Simulation - Cars with Lightweight"],
+            "progression": true
+        },
+        {
+            "name": "Mitsubishi FTO GPX",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FF", "Simulation - Cars with Lightweight"],
+            "progression": true
+        },
+        {
+            "name": "Mitsubishi Mirage '92 Cyborg R 3door",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FF", "Simulation - Cars with Lightweight", "Starter Car"],
+            "progression": true
+        },
+        {
+            "name": "Mitsubishi FTO '94 GR",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FF", "Simulation - Cars with Lightweight"],
+            "progression": true
+        },
+        {
+            "name": "Mitsubishi FTO '94 GPX",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FF", "Simulation - Cars with Lightweight"],
+            "progression": true
+        },
+        {
+            "name": "Mitsubishi GDI Galant VR-G Touring",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FF"],
+            "progression": true
+        },
+        {
+            "name": "Mitsubishi Eclipse GT",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FF"],
+            "progression": true
+        },
+        {
+            "name": "Mitsubishi Lancer Evolution IV GSR",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with 4WD"],
+            "progression": true
+        },
+        {
+            "name": "Mitsubishi Galant VR-4",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with 4WD"],
+            "progression": true
+        },
+        {
+            "name": "Mitsubishi GTO SR",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with 4WD"],
+            "progression": true
+        },
+        {
+            "name": "Mitsubishi GTO Twin Turbo",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with 4WD"],
+            "progression": true
+        },
+        {
+            "name": "Mitsubishi GTO LM Edition",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with 4WD"],
+            "progression": true
+        },
+        {
+            "name": "Mitsubishi GTO '92",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with 4WD", "Starter Car"],
+            "progression": true
+        },
+        {
+            "name": "Mitsubishi GTO '92 Twin Turbo",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with 4WD"],
+            "progression": true
+        },
+        {
+            "name": "Mitsubishi GTO '95 SR",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with 4WD"],
+            "progression": true
+        },
+        {
+            "name": "Mitsubishi Lancer Evolution III GSR",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with 4WD"],
+            "progression": true
+        },
+        {
+            "name": "Mitsubishi GTO '95 Twin Turbo",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with 4WD"],
+            "progression": true
+        },
+        {
+            "name": "Mitsubishi GTO '95 Twin Turbo MR",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with 4WD"],
+            "progression": true
+        },
+        {
+            "name": "Mitsubishi FTO LM Edition",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with 4WD"],
+            "progression": true
+        },
+        {
+            "name": "Nissan Primera '95 2.0Te",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FF"],
+            "progression": true
+        },
+        {
+            "name": "Nissan Primera '90 2.0Te",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FF", "Starter Car"],
+            "progression": true
+        },
+        {
+            "name": "Nissan S14 Silvia Q's Aero",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FR"],
+            "progression": true
+        },
+        {
+            "name": "Nissan 180SX TypeS",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FR"],
+            "progression": true
+        },
+        {
+            "name": "Nissan S14 Silvia K's Aero",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FR"],
+            "progression": true
+        },
+        {
+            "name": "Nissan 180SX TypeX",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FR"],
+            "progression": true
+        },
+        {
+            "name": "Nissan R33 Skyline GTS25t TypeM",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FR"],
+            "progression": true
+        },
+        {
+            "name": "Nissan Fairlady Z Version S 2seater",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FR"],
+            "progression": true
+        },
+        {
+            "name": "Nissan Fairlady Z Version S 2by2",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FR"],
+            "progression": true
+        },
+        {
+            "name": "Nissan Fairlady Z Version S TwinTurbo 2seater",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FR"],
+            "progression": true
+        },
+        {
+            "name": "Nissan Fairlady Z Version S TwinTurbo 2by2",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FR"],
+            "progression": true
+        },
+        {
+            "name": "Nissan Nismo GT-R LM",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FR"],
+            "progression": true
+        },
+        {
+            "name": "Nissan S13 Silvia '88 Q's 1800cc",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FR", "Starter Car"],
+            "progression": true
+        },
+        {
+            "name": "Nissan S13 Silvia '88 K's 1800cc",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FR", "Starter Car"],
+            "progression": true
+        },
+        {
+            "name": "Nissan S13 Silvia '91 Q's 2000cc",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FR", "Starter Car"],
+            "progression": true
+        },
+        {
+            "name": "Nissan R32 Skyline GTS25 TypeS",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FR", "Starter Car"],
+            "progression": true
+        },
+        {
+            "name": "Nissan S13 Silvia '91 K's 2000cc",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FR"],
+            "progression": true
+        },
+        {
+            "name": "Nissan R32 Skyline GTS-t TypeM",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FR"],
+            "progression": true
+        },
+        {
+            "name": "Nissan S14 Silvia '95 K's",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FR"],
+            "progression": true
+        },
+        {
+            "name": "Nissan S14 Silvia '95 Q's",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FR"],
+            "progression": true
+        },
+        {
+            "name": "Nissan 180SX '94 TypeX",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FR"],
+            "progression": true
+        },
+        {
+            "name": "Nissan S14 SILVIA LM Edition",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FR"],
+            "progression": true
+        },
+        {
+            "name": "Nissan SILEIGHTY",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FR"],
+            "progression": true
+        },
+        {
+            "name": "Nissan R33 Skyline GT-R",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with 4WD"],
+            "progression": true
+        },
+        {
+            "name": "Nissan R33 Skyline GT-R Vspec",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with 4WD"],
+            "progression": true
+        },
+        {
+            "name": "Nissan Pulsar '91 GTi-R",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with 4WD"],
+            "progression": true
+        },
+        {
+            "name": "Nissan R32 Skyline '89 GT-R",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with 4WD"],
+            "progression": true
+        },
+        {
+            "name": "Nissan R32 Skyline '91 GT-R",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with 4WD"],
+            "progression": true
+        },
+        {
+            "name": "Nissan R33 Skyline '95 GT-R",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with 4WD"],
+            "progression": true
+        },
+        {
+            "name": "Nissan R33 Skyline '95 GT-R Vspec",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with 4WD"],
+            "progression": true
+        },
+        {
+            "name": "Nissan R32 Skyline GT-R Vspec II",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with 4WD"],
+            "progression": true
+        },
+        {
+            "name": "Nissan R32 Skyline GTS4",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with 4WD"],
+            "progression": true
+        },
+        {
+            "name": "Nissan R32 Skyline GT-R Vspec",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with 4WD"],
+            "progression": true
+        },
+        {
+            "name": "Nissan Skyline GT-R Nismo R32",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with 4WD"],
+            "progression": true
+        },
+        {
+            "name": "Nissan NISMO 400R",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with 4WD"],
+            "progression": true
+        },
+        {
+            "name": "Nissan NISMO GT-R LM Road Going Version",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with 4WD"],
+            "progression": true
+        },
+        {
+            "name": "Subaru Impreza '96 WRX Sports Wagon",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with 4WD"],
+            "progression": true
+        },
+        {
+            "name": "Subaru Impreza '96 WRX Sedan",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with 4WD"],
+            "progression": true
+        },
+        {
+            "name": "Subaru Legacy Touring Sedan RS",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with 4WD"],
+            "progression": true
+        },
+        {
+            "name": "Subaru Impreza '96 WRX-STi Sports Wagon Version III",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with 4WD"],
+            "progression": true
+        },
+        {
+            "name": "Subaru Impreza '96 WRX-STi Sedan Version III",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with 4WD"],
+            "progression": true
+        },
+        {
+            "name": "Subaru Legacy Touring Wagon GT-B",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with 4WD"],
+            "progression": true
+        },
+        {
+            "name": "Subaru Impreza WRX-STi TypeR",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with 4WD"],
+            "progression": true
+        },
+        {
+            "name": "Subaru Impreza Rally Edition",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with 4WD"],
+            "progression": true
+        },
+        {
+            "name": "Subaru Impreza '95 WRX-STi Sports Wagon Version II",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with 4WD"],
+            "progression": true
+        },
+        {
+            "name": "Subaru Impreza '94 WRX Sports Wagon",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with 4WD"],
+            "progression": true
+        },
+        {
+            "name": "Subaru Legacy '93 Touring Wagon GT",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with 4WD"],
+            "progression": true
+        },
+        {
+            "name": "Subaru Alcyone SVX Version L",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with 4WD"],
+            "progression": true
+        },
+        {
+            "name": "Subaru Impreza '94 WRX Sedan",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with 4WD"],
+            "progression": true
+        },
+        {
+            "name": "Subaru Impreza '95 WRX-Sti Sedan Version II",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with 4WD"],
+            "progression": true
+        },
+        {
+            "name": "Subaru Legacy '93 Touring Sports RS",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with 4WD"],
+            "progression": true
+        },
+        {
+            "name": "Subaru Alcyone SVX S4",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with 4WD"],
+            "progression": true
+        },
+        {
+            "name": "Toyota Starlet Glanza V",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FF", "Simulation - Cars with Lightweight"],
+            "progression": true
+        },
+        {
+            "name": "Toyota Corolla Levin BZ-G",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FF", "Simulation - Cars with Lightweight"],
+            "progression": true
+        },
+        {
+            "name": "Toyota Sprinter Trueno BZ-G",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FF", "Simulation - Cars with Lightweight"],
+            "progression": true
+        },
+        {
+            "name": "Toyota Celica SS-II",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FF"],
+            "progression": true
+        },
+        {
+            "name": "Toyota Corona Exiv 200GT",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FF"],
+            "progression": true
+        },
+        {
+            "name": "Toyota AE86 Corolla Levin 1600 GT-Apex",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FR", "Simulation - Cars with Lightweight", "Starter Car"],
+            "progression": true
+        },
+        {
+            "name": "Toyota AE86 Sprinter Trueno GT-Apex",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FR", "Simulation - Cars with Lightweight", "Starter Car"],
+            "progression": true
+        },
+        {
+            "name": "Toyota Chaser 2.5 Tourer S",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FR"],
+            "progression": true
+        },
+        {
+            "name": "Toyota Chaser 2.5 Tourer V",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FR"],
+            "progression": true
+        },
+        {
+            "name": "Toyota Supra SZ-R",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FR"],
+            "progression": true
+        },
+        {
+            "name": "Toyota Soarer '96 2.5 GT-T VVT-i",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FR"],
+            "progression": true
+        },
+        {
+            "name": "Toyota Supra RZ",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FR"],
+            "progression": true
+        },
+        {
+            "name": "Toyota Castrol Supra GT",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FR"],
+            "progression": true
+        },
+        {
+            "name": "Toyota MA70 Supra 3.0 GT Turbo Limited",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FR", "Starter Car"],
+            "progression": true
+        },
+        {
+            "name": "Toyota JZA70 Supra TwinTurbo-R",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FR"],
+            "progression": true
+        },
+        {
+            "name": "Toyota MarkII '92 2.5 Tourer S",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FR"],
+            "progression": true
+        },
+        {
+            "name": "Toyota Soarer '95 2.5 GT-T",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FR"],
+            "progression": true
+        },
+        {
+            "name": "Toyota Supra '95 RZ",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FR"],
+            "progression": true
+        },
+        {
+            "name": "Toyota Supra '95 SZ-R",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FR"],
+            "progression": true
+        },
+        {
+            "name": "Toyota MarkII '92 2.5 Tourer V",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FR"],
+            "progression": true
+        },
+        {
+            "name": "Toyota CHASER LM Edition",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FR"],
+            "progression": true
+        },
+        {
+            "name": "Toyota TRD 3000GT",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with FR"],
+            "progression": true
+        },
+        {
+            "name": "Toyota Celica GT-Four",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP", "Simulation - Cars with 4WD"],
+            "progression": true
+        },
+        {
+            "name": "Toyota MR2 G-Limited",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP"],
+            "progression": true
+        },
+        {
+            "name": "Toyota MR2 GT-S",
+            "category": ["Individual", "Simulation - Cars", "Simulation - Cars from JP"],
+            "progression": true
+        }
+    ]
+
+}
