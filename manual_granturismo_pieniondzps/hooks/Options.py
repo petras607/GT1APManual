@@ -54,14 +54,6 @@ class TrophyRequired(Range):
     range_end = 100
     default = 15
 
-class UnlockCarsIndividually(Toggle):
-    """
-    Replaces Manufacturer Permits with individual cars.
-    Will make the playthrough more difficult and grindy, but also more varied.
-    """
-    display_name = "Unlock cars individually"
-    default = 0
-
 class LimitStarterCars(Toggle):
     """
     Limits your starting car to one of the following brand permits:
@@ -139,7 +131,6 @@ def before_options_defined(options: dict) -> dict:
     options["trophy_hunt"] = TrophyHunt
     options["trophy_total"] = TrophyTotal
     options["trophy_required"] = TrophyRequired
-    options["unlock_cars_individually"] = UnlockCarsIndividually
     options["limit_starter_cars"] = LimitStarterCars
     options["simulation_head_start"] = SimulationHeadStart
     options["progressive_tires"] = ProgressiveTires

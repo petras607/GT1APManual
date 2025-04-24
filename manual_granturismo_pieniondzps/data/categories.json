@@ -4,9 +4,6 @@
     "Simulation - Trohpies": {},
     "Simulation - Milestones": {},
 
-    "Manufacturer": { "yaml_option": ["!unlock_cars_individually"], "hidden": true },
-    "Individual":   { "yaml_option": ["unlock_cars_individually"], "hidden": true },
-
     "Simulation - Cars": {},
     "Simulation - Cars with FF": {},
     "Simulation - Cars with FR": {},
@@ -17,7 +14,6 @@
     "Simulation - Cars from JP": {},
 
     "Starter Manufacturer": { "hidden": true },
-    "Starter Car": { "hidden": true },
 
     "Upgrades - Muffler": {},
     "Upgrades - Brake": {},

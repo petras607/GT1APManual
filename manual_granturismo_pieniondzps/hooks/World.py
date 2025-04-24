@@ -95,27 +95,15 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
 
     # Adds a random car permit to starting items, with the pool depending on the state of "Limit starter cars" and "Unlock cars individually"
     if get_option_value(multiworld, player, "limit_starter_cars") == 1:
-        if get_option_value(multiworld, player, "unlock_cars_individually") == 0:
-            car_pool.extend([
-                name for name, l in world.item_name_to_item.items()
-                    if "Starter Manufacturer" in l.get('category', [])
-            ])
-        else:
-            car_pool.extend([
-                name for name, l in world.item_name_to_item.items()
-                    if "Starter Car" in l.get('category', [])
-            ])
+        car_pool.extend([
+            name for name, l in world.item_name_to_item.items()
+                if "Starter Manufacturer" in l.get('category', [])
+        ])
     else:
-        if get_option_value(multiworld, player, "unlock_cars_individually") == 0:
-            car_pool.extend([
-                name for name, l in world.item_name_to_item.items()
-                    if "Manufacturer" in l.get('category', [])
-            ])
-        else:
-            car_pool.extend([
-                name for name, l in world.item_name_to_item.items()
-                    if "Individual" in l.get('category', [])
-            ])
+        car_pool.extend([
+            name for name, l in world.item_name_to_item.items()
+                if "Simulation - Cars" in l.get('category', [])
+        ])
     multiworld.random.shuffle(car_pool)
     starting_items.append(car_pool[0])
 
