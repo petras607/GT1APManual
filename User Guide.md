@@ -200,7 +200,7 @@ When you die, everyone who enabled death link die. Of course, the reverse is tru
 # Tips and tricks
 - If you don't know which manufacturer a car belongs to, try selling it. Selling price will be slightly higher in manufacturer shop that matches your car.
 - Increasing horsepower isn't the only way to make cars faster. Reducing weight, putting better tires, improving drivetrain and other upgrades are just as good for your car's performance.
-- Manufacturer permits are divided into categories. There are separate categories for drivetrain, engine aspiration and even whether they're eligible for lightweight events. Use them to quickly filter through your permits and find what you can use.
+- Manufacturer permits are divided into categories. There are separate categories for drivetrain, engine aspiration and even whether they have cars eligible for lightweight events. Use them to quickly filter through your permits and find what you can use.
 - If a location doesn't say "win" you might as well finish on last place. Of course, you can self-impose limitations to that anyway.
 - Once you win a championship you can tick off every check belonging to that championship.
 - Race modified cars you can win from events or buy directly from shops are perfect for getting stuff out of logic.
@@ -211,14 +211,14 @@ When you die, everyone who enabled death link die. Of course, the reverse is tru
 | Items | Count |
 | --- | --- |
 | Manufacturer Permits - Simulation | 10 |
-| Individual Cars - Simulation | 144 |
 | Progressive License | 3 |
 | Milestones | 3 |
 | Upgrades | 47 |
-| Trophy | 0-100 |
 | Manufacturer Permits - Arcade | 19 |
 | Arcade Passes | 8 |
-197
+| Total Minimum | 63 |
+| Total Maximum | 90 |
+| Trophy | 0-100 |
 
 | Locations | Count |
 | GT League | 20 |
@@ -230,4 +230,5 @@ When you die, everyone who enabled death link die. Of course, the reverse is tru
 | Time Trials Reverse | 10 |
 | Qualifiers | 61 + 3 Endurance |
 | Arcade Mode | 24 |
-187
+| Total Minimum | 75 |
+| Total Maximum | 211 |
