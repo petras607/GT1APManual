@@ -159,6 +159,8 @@ Beginner friendly races that are available from the start.
 A variety of races focused on different types of cars. Each event requires a car with specific drivetrain, country of origin or without specific upgrades.
 ### Endurance
 Extremely long races, each one taking 1-2 hours to finish. Tire durability is enabled in these events.
+### License Tests
+Short time trials meant to test and improve your driving skills.
 ### Time Trial
 Set a best lap time on tracks. Reversed variants of tracks can also be enabled.
 ### Qualifiers
@@ -221,6 +223,7 @@ When you die, everyone who enabled death link die. Of course, the reverse is tru
 | Trophy | 0-100 |
 
 | Locations | Count |
+| --- | --- |
 | GT League | 20 |
 | Spot Race | 5 |
 | Special Events | 50 |
