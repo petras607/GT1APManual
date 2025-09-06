@@ -1,10 +1,37 @@
 {
-    "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.game.schema.json",
-    "game": "GranTurismo",
-    "creator": "PieniondzPS",
+  "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.game.schema.json",
+  "game": "GranTurismo",
+  "creator": "PieniondzPS",
 
-    "filler_item_name": "Free car wash",
+  "filler_item_name": "Free car wash",
 
-    "starting_items": [],
-    "death_link": true
+  "starting_items": [
+    {
+      "items": ["Ryu",
+        "Akuma"]
+    },
+    {
+      "item_categories": ["Left Side"],
+      "random": 1
+    },
+    {
+      "items": ["Wolverine",
+        "Storm",
+        "Phoenix"],
+      "random": 1
+    },
+    {
+      "item_categories": ["Trash"]
+    },
+    {
+      "random": 3
+    },
+    {
+      "items": ["Deadpool"],
+      "yaml_option": ["start_with_deadpool"]
+    }
+  ],
+  
+  "death_link": true,
+  "starting_index": 1
 }

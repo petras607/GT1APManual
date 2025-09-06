@@ -1,5 +1,6 @@
 {
     "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.regions.schema.json",
+
     "No Licenses": {
         "connects_to": ["B-Class Unlocks", "Arcade - C-Class", "Arcade - B-Class", "Arcade - A-Class"],
         "starting": true
