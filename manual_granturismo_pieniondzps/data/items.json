@@ -88,162 +88,162 @@
 
         {
             "name": "Progressive Mufflers",
-            "category": ["Upgrades - Muffler"],
+            "category": ["Upgrades - Muffler", "Upgrades"],
             "count": 3,
             "useful": true
         },
         {
             "name": "Sports Brake Kit",
-            "category": ["Upgrades - Brake"],
+            "category": ["Upgrades - Brake", "Upgrades"],
             "useful": true
         },
         {
             "name": "Brake Balance Controller",
-            "category": ["Upgrades - Brake"],
+            "category": ["Upgrades - Brake", "Upgrades"],
             "useful": true
         },
         {
             "name": "Sports ROM",
-            "category": ["Upgrades - Engine"],
+            "category": ["Upgrades - Engine", "Upgrades"],
             "useful": true
         },
         {
             "name": "Progressive NA Tune",
-            "category": ["Upgrades - Engine"],
+            "category": ["Upgrades - Engine", "Upgrades"],
             "count": 3,
             "useful": true
         },
         {
             "name": "Port Polishing",
-            "category": ["Upgrades - Engine"],
+            "category": ["Upgrades - Engine", "Upgrades"],
             "useful": true
         },
         {
             "name": "Increasing Displacement",
-            "category": ["Upgrades - Engine"],
+            "category": ["Upgrades - Engine", "Upgrades"],
             "useful": true
         },
         {
             "name": "Engine Balancing",
-            "category": ["Upgrades - Engine"],
+            "category": ["Upgrades - Engine", "Upgrades"],
             "useful": true
         },
         {
             "name": "Progressive Gearbox",
-            "category": ["Upgrades - Transmission"],
+            "category": ["Upgrades - Transmission", "Upgrades"],
             "count": 3,
             "useful": true
         },
         {
             "name": "Progressive Clutch",
-            "category": ["Upgrades - Transmission"],
+            "category": ["Upgrades - Transmission", "Upgrades"],
             "count": 3,
             "useful": true
         },
         {
             "name": "Progressive Flywheel",
-            "category": ["Upgrades - Transmission"],
+            "category": ["Upgrades - Transmission", "Upgrades"],
             "count": 3,
             "useful": true
         },
         {
             "name": "Carbon Drive Shaft",
-            "category": ["Upgrades - Transmission"],
+            "category": ["Upgrades - Transmission", "Upgrades"],
             "useful": true
         },
         {
             "name": "Progressive Intercooler",
-            "category": ["Upgrades - Turbo"],
+            "category": ["Upgrades - Turbo", "Upgrades"],
             "count": 2,
             "useful": true
         },
         {
             "name": "Progressive Turbo",
-            "category": ["Upgrades - Turbo"],
+            "category": ["Upgrades - Turbo", "Upgrades"],
             "count": 4,
             "useful": true
         },
         {
             "name": "Progressive Suspension",
-            "category": ["Upgrades - Suspension"],
+            "category": ["Upgrades - Suspension", "Upgrades"],
             "count": 3,
             "useful": true
         },
         {
             "name": "Front Soft Stabilizers",
-            "category": ["Upgrades - Suspension"],
+            "category": ["Upgrades - Suspension", "Upgrades"],
             "useful": true
         },
         {
             "name": "Front Medium Stabilizers",
-            "category": ["Upgrades - Suspension"],
+            "category": ["Upgrades - Suspension", "Upgrades"],
             "useful": true
         },
         {
             "name": "Front Hard Stabilizers",
-            "category": ["Upgrades - Suspension"],
+            "category": ["Upgrades - Suspension", "Upgrades"],
             "useful": true
         },
         {
             "name": "Rear Soft Stabilizers",
-            "category": ["Upgrades - Suspension"],
+            "category": ["Upgrades - Suspension", "Upgrades"],
             "useful": true
         },
         {
             "name": "Rear Medium Stabilizers",
-            "category": ["Upgrades - Suspension"],
+            "category": ["Upgrades - Suspension", "Upgrades"],
             "useful": true
         },
         {
             "name": "Rear Hard Stabilizers",
-            "category": ["Upgrades - Suspension"],
+            "category": ["Upgrades - Suspension", "Upgrades"],
             "useful": true
         },
         {
             "name": "Progressive Tires",
-            "category": ["Upgrades - Tires", "Progressive Tires On"],
+            "category": ["Upgrades - Tires", "Progressive Tires On", "Upgrades"],
             "count": 6,
             "useful": true
         },
         {
             "name": "Semi Racing Tires - Hard-Hard",
-            "category": ["Upgrades - Tires", "Progressive Tires Off"],
+            "category": ["Upgrades - Tires", "Progressive Tires Off", "Upgrades"],
             "useful": true
         },
         {
             "name": "Semi Racing Tires - Hard-Soft and Soft-Hard",
-            "category": ["Upgrades - Tires", "Progressive Tires Off"],
+            "category": ["Upgrades - Tires", "Progressive Tires Off", "Upgrades"],
             "useful": true
         },
         {
             "name": "Semi Racing Tires - Soft-Soft",
-            "category": ["Upgrades - Tires", "Progressive Tires Off"],
+            "category": ["Upgrades - Tires", "Progressive Tires Off", "Upgrades"],
             "useful": true
         },
         {
             "name": "Racing Tires - Hard-Hard",
-            "category": ["Upgrades - Tires", "Progressive Tires Off"],
+            "category": ["Upgrades - Tires", "Progressive Tires Off", "Upgrades"],
             "useful": true
         },
         {
             "name": "Racing Tires - Hard-Soft and Soft-Hard",
-            "category": ["Upgrades - Tires", "Progressive Tires Off"],
+            "category": ["Upgrades - Tires", "Progressive Tires Off", "Upgrades"],
             "useful": true
         },
         {
             "name": "Racing Tires - Soft-Soft",
-            "category": ["Upgrades - Tires", "Progressive Tires Off"],
+            "category": ["Upgrades - Tires", "Progressive Tires Off", "Upgrades"],
             "useful": true
         },
         {
             "name": "Progressive Weight Reduction",
-            "category": ["Upgrades - Other"],
+            "category": ["Upgrades - Other", "Upgrades"],
             "count": 3,
             "useful": true
         },
         {
             "name": "Racing Modification",
-            "category": ["Upgrades - Other"],
+            "category": ["Upgrades - Other", "Upgrades"],
             "useful": true
         },
 

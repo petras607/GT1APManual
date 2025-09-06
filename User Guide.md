@@ -4,12 +4,12 @@ The manual has been tested using the NTSC-U version of the game. I have made an 
 Gran Turismo Manual's general progression assumes you'll be starting the game from a fresh save file. Depending on settings though you may want to prepare your save file (either via cheats or revisiting a finished playthrough) to make Manual experience as smooth as possible:
 | Option | Preparation |
 | --- | --- |
-| Enabled "License Tests" locations | Obtain every license available |
+| Disabled "License Tests" locations | Obtain every license available |
 | Enabled "Arcade Mode" locations | Win every race in Arcade mode |
-| Disabled "Limit Starter Cars" option | Have ~5 million credits |
+| Disabled "Limit Starter Cars" option | Have ~1 million credits |
 
 # Rules of the game
-Each event is a location. Obtain licenses to unlock more events. Obtain permits to be able to use more cars in said events. Obtain upgrades to apply on cars to make them stronger and win events more easily.
+Each event and championship win is a location. Obtain licenses to unlock more events. Obtain permits to be able to use more cars in said events. Obtain upgrades to apply on cars to make them stronger and win events more easily.
 
 The goal is winning the final GT League championship (GT World Cup) residing in Simulation Mode's Go Race tab.
 
@@ -30,14 +30,14 @@ MacGuffins of this .apworld. Can be enabled using .yaml options. Once enabled, t
 Dummy items marking important milestones of GT League progressions. Pre-placed in "Win Sunday Cup", "Win Clubman Cup" and "Win GT Cup" locations. You need to obtain every milestone in order to access GT World Cup and reach the goal.
 
 ## Manufacturer permits (progression)
-Gran Turismo does not allow the use of cars obtained through Simulation Mode in Arcade Mode races. Because of that permits have been separated between Simulation and Arcade variants.
+Gran Turismo 1 does not allow the use of cars obtained through Simulation Mode in Arcade Mode races. Because of that permits have been separated between Simulation and Arcade variants.
 ### Simulation
 You start the run with a random Simulation permit. Each car manufacturer available in-game has its own permit. By getting a permit you obtain permission to use said manufacturer's cars in Simulation Mode events. For example, if you get a Toyota Permit, you'll be able to use Toyota cars in your run.
 ### Arcade
 Each manufacturer permit available in Arcade Mode has been further divided into three classes: A-Class, B-Class and C-Class. By getting a permit you obtain permission to use said manufacturer's cars of a given class in Arcade Mode events. For example, if you get a Mazda C-Class Permit, you'll be able to use Mazda cars in C-Class races.
 
 ## Upgrades
-Unlocks an upgrade, allowing you to purchase them for your cars. Some upgrades may not be available in certain cars. If a car comes with upgrades already installed, you may use them on that car even if you didn't unlock them yet.
+If enabled using .yaml options, unlocks an upgrade, allowing you to purchase them for your cars. Some upgrades may not be available in certain cars. If a car comes with upgrades already installed (common when purchasing/winning race modified cars), you may use them on that car even if you didn't unlock them yet.
 
 ### Muffler Upgrades
 #### Progressive Mufflers (useful, x3)
@@ -73,7 +73,7 @@ Increases horsepower.
 
 ### Transmission Upgrades
 #### Progressive Gearbox (useful, x3)
-Allows you to modify gear ratio to tweak acceleration and top speed.
+Changes gear ratio to tweak acceleration and top speed. Racing Support allows you to fully modify ratio for each individual gear.
 | Count | Tier unlock |
 | --- | --- |
 | 1 | Sports |
@@ -114,14 +114,14 @@ Increases horsepower in Turbo cars.
 
 ### Suspension Upgrades
 #### Progressive Suspension (useful, x3)
-Allows you to modify suspension behavior.
+Allows you to modify suspension behavior. Higher tiers give you more control over the sliders.
 | Count | Tier unlock |
 | --- | --- |
 | 1 | Sports |
 | 2 | Semi Racing |
 | 3 | Racing |
 #### Stabilizers (useful, x6)
-Harder stabilizers make your car stiffer. Available items are Soft, Medium and Hard. They're further divided between Front and Rear stabilizers.
+Harder stabilizers make your car stiffer, which impacts car's weight shift on slopes or while turning. Available items are Soft, Medium and Hard. They're further divided between Front and Rear stabilizers.
 
 ### Tire Upgrades
 #### Semi Racing and Racing Tires (useful, x6)
@@ -164,9 +164,9 @@ Short time trials meant to test and improve your driving skills.
 ### Time Trial
 Set a best lap time on tracks. Reversed variants of tracks can also be enabled.
 ### Qualifiers
-Each championship's race has qualifiers. During qualifiers you have one shot at setting a lap time. Pole Position means finishing qualifiers on 1st place.
+Each championship's race has qualifiers. During qualifiers you have one shot at setting a lap time. Grid position depends on qualifier placement.
 ## Arcade Mode
-A single race against opponents. Driving is simplified and tracks feature jumps in certain sections. Difficulty can be adjusted to your liking.
+A single race against opponents. Driving physics are simplified and tracks feature jumps in certain sections. Difficulty can be adjusted to your liking.
 
 # Options
 ## Trophy Hunt
@@ -175,22 +175,24 @@ Adds Trophies to the item pool. Makes the goal additionally require collecting a
 Set the total amount of trophies to be added to the item pool. Applies only if Trophy Hunt is enabled.
 ## Trophy Required
 Set the required amount of trophies to be collected to reach goal. Applies only if Trophy Hunt is enabled.
-## Limit Started Cars
+## Limit Starter Cars
 Set whether you want to limit manufacturer permits you want to receive as your starting item to those with cars costing under 10,000 credits.
+## Include Upgrades
+Adds upgrades to the item pool. Disable this option to drastically reduce early and mid game difficulty.
+## Progressive Tires
+Makes Tires upgrades progressive instead of being individual item for every type.
 ## Simulation Head Start
 Adds a small bundle of upgrades to starting items to make early game a bit easier.
-## Progressive Tires
-Makes Tires progressive instead of being individual item for every type.
 ## License Tests
-Adds license tests to the location pool. Slightly slows down the seed.
+Adds license tests to the location pool.
 ## Endurance Events
 Adds endurances to the location pool. Extremely slow.
 ## Qualifiers
 Adds qualifiers to the location pool. Extremely slow.
 ## Time Trials
-Adds time trials to the location pool. Makes initial location pool much bigger.
+Adds time trials to the location pool. Makes sphere 0 much bigger.
 ## Arcade Mode
-Adds Arcade Mode to the location pool. Slightly slows down the seed.
+Adds Arcade Mode to the location pool.
 ## Arcade Head Start
 Adds one track and manufacturer permit to make at least one Arcade Mode location accessible from the start.
 ## Death Link
@@ -205,7 +207,7 @@ When you die, everyone who enabled death link die. Of course, the reverse is tru
 - Manufacturer permits are divided into categories. There are separate categories for drivetrain, engine aspiration and even whether they have cars eligible for lightweight events. Use them to quickly filter through your permits and find what you can use.
 - If a location doesn't say "win" you might as well finish on last place. Of course, you can self-impose limitations to that anyway.
 - Once you win a championship you can tick off every check belonging to that championship.
-- Race modified cars you can win from events or buy directly from shops are perfect for getting stuff out of logic.
+- Race modified cars you can win from events or buy directly from shops are perfect for clearing end game events.
 - Default .yaml template is configured with settings recommended for a casual full playthrough of the game.
 - Be mindful when adding locations to your run. If you enable multiple additional location options, I strongly recommend enabling Trophy Hunt and adding some trophies to the item pool. This will reduce the amount of junk items generated by this game.
 

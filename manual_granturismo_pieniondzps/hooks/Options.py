@@ -36,7 +36,6 @@ class TrophyTotal(Range):
     Set how many Trophies should be added to the item pool.
     Applies only if Trophy Hunt is enabled.
     """
-    display_name = "Trophy total"
     range_start = 1
     range_end = 100
     default = 20
@@ -47,7 +46,6 @@ class TrophyRequired(Range):
     Note that if it's set higher than trophy total it will increase the total count so it matches the required count.
     Applies only if Trophy Hunt is enabled.
     """
-    display_name = "Trophy required"
     range_start = 1
     range_end = 100
     default = 15
@@ -59,7 +57,13 @@ class LimitStarterCars(Toggle):
     Each of these brands feature a reasonably powerful car you can buy with your starting 10,000 Credits.
     If disabled, any brand can be your starting item. You won't be able to progress without having millions of Credits.
     """
-    display_name = "Limit starter cars"
+    default = 1
+
+class IncludeUpgrades(Toggle):
+    """
+    Adds upgrades to the item pool.
+    You won't be able to purchase upgrades until you receive a corresponding item from the multiworld, increasing early and mid game difficulty.
+    """
     default = 1
 
 class ProgressiveTires(Toggle):
@@ -67,20 +71,17 @@ class ProgressiveTires(Toggle):
     Makes Tires progressive instead of being individual items for every tire type and combination.
     No impact on progression but may make the playthrough more difficult.
     """
-    display_name = "Make Tires progressive"
 
 class SimulationHeadStart(Toggle):
     """
     Adds following upgrades to your starting items:
     Semi Racing Tires - Hard-Hard, one Weight Reduction, one NA Tune and one Turbo.
     """
-    display_name = "Simulation mode head start"
 
 class LicenseTests(Toggle):
     """
     Adds license tests to the location pool.
     """
-    display_name = "License tests"
 
 class EnduranceEvents(Toggle):
     """
@@ -88,13 +89,11 @@ class EnduranceEvents(Toggle):
     300km Grand Valley, All-night I, All-night II
     Each event enabled with this option will take 1-2 hours depending on your car.
     """
-    display_name = "Endurance events"
 
 class Qualifiers(Toggle):
     """
     Adds qualifiers to the location pool.
     """
-    display_name = "Qualifiers"
 
 class TimeTrial(Choice):
     """
@@ -104,7 +103,6 @@ class TimeTrial(Choice):
     [reverse] - only Time Trials in reversed variants will be enabled
     [both] - both normal and reversed Time Trials will be enabled
     """
-    display_name = "Time trials"
     option_none = 0
     option_normal = 1
     option_reverse = 2
@@ -115,14 +113,12 @@ class ArcadeMode(Toggle):
     """
     If enabled, adds Arcade mode related items and locations to the pool.
     """
-    display_name = "Arcade mode content"
 
 class ArcadeHeadStart(Toggle):
     """
     If enabled, adds a random arcade car permit and track pass to your starting items.
     This option will only take effect if Arcade mode content is enabled.
     """
-    display_name = "Arcade mode head start"
 
 # This is called before any manual options are defined, in case you want to define your own with a clean slate or let Manual define over them
 def before_options_defined(options: dict[str, Type[Option[Any]]]) -> dict[str, Type[Option[Any]]]:
@@ -130,8 +126,9 @@ def before_options_defined(options: dict[str, Type[Option[Any]]]) -> dict[str, T
     options["trophy_total"] = TrophyTotal
     options["trophy_required"] = TrophyRequired
     options["limit_starter_cars"] = LimitStarterCars
-    options["simulation_head_start"] = SimulationHeadStart
+    options["include_upgrades"] = IncludeUpgrades
     options["progressive_tires"] = ProgressiveTires
+    options["simulation_head_start"] = SimulationHeadStart
     options["license_tests"] = LicenseTests
     options["endurance_events"] = EnduranceEvents
     options["qualifier"] = Qualifiers

@@ -24,6 +24,7 @@
     "Upgrades - Suspension": {},
     "Upgrades - Tires": {},
     "Upgrades - Other": {},
+    "Upgrades": { "yaml_option": ["include_upgrades"], "hidden": true },
 
     "Progressive Tires On": { "yaml_option": ["progressive_tires"], "hidden": true },
     "Progressive Tires Off": { "yaml_option": ["!progressive_tires"], "hidden": true },

@@ -100,7 +100,7 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
     starting_items = []
     car_pool = []
 
-    # Adds a random car permit to starting items, with the pool depending on the state of "Limit starter cars" and "Unlock cars individually"
+    # Adds a random car permit to starting items, with the pool depending on the state of "Limit starter cars"
     if get_option_value(multiworld, player, "limit_starter_cars") == 1:
         car_pool.extend([
             name for name, l in world.item_name_to_item.items()
